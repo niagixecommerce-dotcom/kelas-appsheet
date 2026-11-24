@@ -1,0 +1,5 @@
+ApprovalID,LoanID,ApproverEmail,ApprovalDate,ApprovalStatus,Remarks
+APR001,LN002,pegawai@organisasi.edu.my,2026-11-22 08:30,Approved,Diluluskan untuk kegunaan bengkel rasmi.
+APR002,LN003,pegawai@organisasi.edu.my,2026-11-19 14:10,Approved,Diluluskan. Sila pulangkan sebelum 5 petang.
+APR003,LN004,pegawai@organisasi.edu.my,2026-11-24 10:05,Approved,Sila ambil di Stor Aset Aras 1.
+APR004,LN005,pegawai@organisasi.edu.my,2026-11-17 17:00,Rejected,Melebihi had unit dibenarkan untuk aktiviti luar.

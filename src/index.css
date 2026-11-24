@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    background-color: #FCFCFD;
+    color: #18181B;
+    overflow-x: hidden;
+  }
+}
+
+@layer components {
+  /* Berfest Signature Warm Gradients */
+  .bg-berfest-gradient {
+    background: linear-gradient(135deg, #FACC15 0%, #F59E0B 26%, #F97316 58%, #DC2626 88%, #991B1B 100%);
+  }
+
+  .bg-berfest-gradient-h {
+    background: linear-gradient(90deg, #FACC15 0%, #F97316 50%, #B91C1C 100%);
+  }
+
+  .bg-berfest-gradient-soft {
+    background: linear-gradient(135deg, #FFFBEB 0%, #FFF7ED 55%, #FEF2F2 100%);
+  }
+
+  .text-berfest-gradient {
+    background: linear-gradient(135deg, #F59E0B 0%, #EA580C 52%, #B91C1C 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* Floating Card inspired by Berfest slides */
+  .berfest-card {
+    @apply bg-white rounded-3xl border border-orange-100/80 shadow-berfest-card transition-all duration-300;
+  }
+
+  .berfest-card-hover {
+    @apply berfest-card hover:-translate-y-1 hover:shadow-berfest hover:border-orange-200;
+  }
+
+  /* Berfest Pill Button */
+  .btn-berfest {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 font-semibold text-white shadow-md transition-all duration-200 active:scale-[0.98];
+    background: linear-gradient(95deg, #F59E0B 0%, #EA580C 52%, #B91C1C 100%);
+  }
+
+  .btn-berfest:hover {
+    filter: brightness(1.06);
+    box-shadow: 0 12px 28px -6px rgba(234, 88, 12, 0.45);
+  }
+
+  .btn-berfest-outline {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-2.5 font-semibold text-orange-700 bg-white border border-orange-200 shadow-sm hover:bg-orange-50 hover:border-orange-300 transition-all duration-200 active:scale-[0.98];
+  }
+
+  /* Icon Bubble like Berfest slides */
+  .berfest-icon-circle {
+    @apply flex items-center justify-center rounded-full text-white shadow-md flex-shrink-0;
+    background: linear-gradient(135deg, #F59E0B 0%, #EA580C 58%, #B91C1C 100%);
+  }
+
+  .berfest-icon-crimson {
+    @apply flex items-center justify-center rounded-full text-white shadow-md flex-shrink-0;
+    background: linear-gradient(135deg, #DC2626 0%, #991B1B 100%);
+  }
+}
+
+/* Custom sleek scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FFF7ED;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #F59E0B, #DC2626);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #EA580C, #991B1B);
+}

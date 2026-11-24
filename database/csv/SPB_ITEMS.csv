@@ -1,0 +1,7 @@
+ItemID,ItemName,Category,SerialNo,TotalQty,Location,Condition,ItemStatus
+ITM001,Projektor LCD Epson EB-X51,Audio Visual,AV-PRJ-2025-01,5,Stor Aset Aras 1,Baik,Available
+ITM002,Komputer Riba Dell Latitude 5440,ICT,ICT-LPT-2025-12,8,Bilik Server & ICT,Baik,Available
+ITM003,Kamera DSLR Canon EOS 90D,Audio Visual,AV-CAM-2024-03,3,Studio Media,Baik,Available
+ITM004,Mikrofon Tanpa Wayar Shure BLX,Audio Visual,AV-MIC-2025-07,6,Stor Aset Aras 1,Baik,Available
+ITM005,Pembesar Suara Mudah Alih JBL,Audio Visual,AV-SPK-2024-02,4,Dewan Kuliah Utama,Baik,Available
+ITM006,Kit Ujian Rangkaian Fluke,Bengkel,BGK-NET-2025-04,4,Makmal Rangkaian 2,Baik,Available

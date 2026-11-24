@@ -1,0 +1,5 @@
+UserID,FullName,Email,Phone,Role,Department,IsActive
+U001,Ahmad Faizal (Admin),admin@organisasi.edu.my,012-3456701,Admin,Unit Aset & ICT,TRUE
+U002,Pn. Nurul Huda (Pelulus),pegawai@organisasi.edu.my,012-3456702,Approver,Bahagian Pentadbiran,TRUE
+U003,Ali bin Abu,ali@organisasi.edu.my,013-8899001,User,Jabatan Teknologi Maklumat,TRUE
+U004,Siti Aminah,siti@organisasi.edu.my,019-7766554,User,Jabatan Kejuruteraan,TRUE

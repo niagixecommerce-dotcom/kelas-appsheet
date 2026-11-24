@@ -1,0 +1,6 @@
+LoanID,UserID,UserEmail,ItemID,Quantity,LoanDate,DueDate,Purpose,Status,RejectionReason,ApprovedBy,ApprovedDate,CreatedAt
+LN001,U003,ali@organisasi.edu.my,ITM001,1,2026-11-24,2026-11-26,Pembentangan Projek Akhir Semester di Bilik Seminar 2,Pending,,,,2026-11-24 09:15
+LN002,U004,siti@organisasi.edu.my,ITM002,2,2026-11-22,2026-11-25,Bengkel Latihan Google AppSheet untuk staf baharu,Borrowed,,pegawai@organisasi.edu.my,2026-11-22 08:30,2026-11-21 15:20
+LN003,U003,ali@organisasi.edu.my,ITM003,1,2026-11-20,2026-11-22,Liputan Fotografi Hari Inovasi Institusi,Returned,,pegawai@organisasi.edu.my,2026-11-19 14:10,2026-11-19 11:00
+LN004,U004,siti@organisasi.edu.my,ITM004,2,2026-11-25,2026-11-27,Majlis Taklimat Keselamatan Makmal,Approved,,pegawai@organisasi.edu.my,2026-11-24 10:05,2026-11-23 16:40
+LN005,U003,ali@organisasi.edu.my,ITM005,4,2026-11-18,2026-11-19,Aktiviti Kelab Luar Kampus,Rejected,Kuantiti dipohon melebihi had pinjaman aktiviti luar (maksimum 2 unit).,pegawai@organisasi.edu.my,2026-11-17 17:00,2026-11-17 13:45
